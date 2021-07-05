@@ -1,0 +1,55 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.flex-container {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.half-width {
+  width: 50%;
+}
+
+.top-banner {
+  justify-content: right;
+  align-items: center;
+}
+.top-banner-img {
+  width: 100%;
+}
+.top-banner-left {
+  padding-left: 80px;
+}
+.top-banner-left h1 {
+  font-size: 55px;
+  margin: 0;
+  font-weight: 900;
+  color: #333;
+}
+.top-banner-left span {
+  color: #fba24f;
+}
+
+.top-banner-left p {
+  margin: 0;
+  color: #333;
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+.top-banner-text {
+  margin: 35px 0;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 100px;
+}
+
+.btn-primary {
+  background: linear-gradient(#fba24f, #ff4500);
+  color: #fff;
+}
