@@ -2,22 +2,22 @@ body {
   font-family: "Lato", sans-serif;
 }
 
-h2 {
+h2,
+h3 {
   font-size: 45px;
   color: #333;
 }
 
 .flex-container {
   display: flex;
-  margin-bottom: 60px;
 }
 
 .half-width {
   width: 50%;
 }
 
-.top-banner,
-.about {
+#top-banner,
+#about {
   justify-content: right;
   align-items: center;
 }
@@ -66,9 +66,11 @@ h2 {
   padding-top: 60px;
 }
 
-.about {
+#about {
   background: url(images/about-bg.png);
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .about-right {
   padding-right: 180px;
@@ -77,4 +79,59 @@ h2 {
 .about-right p {
   line-height: 1.7;
   margin-bottom: 30px;
+}
+
+#recipes {
+  padding: 10px 30px;
+  background-color: #eeeeee;
+}
+
+#recipes h3 {
+  text-align: center;
+}
+
+.recipes-text {
+  width: 40%;
+  padding-left: 370px;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.recipe-item {
+  background-color: #fff;
+  width: 30%;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.recipe-item img {
+  width: 100%;
+}
+
+.recipe-item h4 {
+  font-size: 24px;
+}
+.recipe-item p {
+  line-height: 1.5;
+}
+#social-followers {
+  padding: 10px 30px;
+  background-color: #eeeeee;
+}
+
+.social-items {
+  background-color: #fff;
+  border-radius: 20px;
+  margin: 60px 25px;
+}
+
+.social-item {
+  width: 33%;
+  padding: 20px;
+  text-align: center;
+}
+
+.social-item h2 {
+  margin-bottom: 0;
 }
