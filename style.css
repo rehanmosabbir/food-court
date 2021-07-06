@@ -92,6 +92,11 @@ h3 {
   background: linear-gradient(#fba24f, #ff4500);
   color: #fff;
 }
+.btn-primary:hover {
+  background: #fff;
+  color: #fba24f;
+  border: 1px solid #fba24f;
+}
 
 .about-img {
   width: 50%;
@@ -149,10 +154,16 @@ h3 {
 
 .recipe-item h4 {
   font-size: 24px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
 }
 .recipe-item p,
 .customer-feedback blockquote {
   line-height: 1.5;
+}
+.recipe-item p {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
 }
 
 #customer-feedbacks {
@@ -167,6 +178,12 @@ h3 {
 
 .customer-feedback {
   border-left: 2px solid #333;
+}
+.customer-feedback h4 {
+  font-size: 24px;
+}
+.customer-feedback span {
+  font-size: 40px;
 }
 .customer-feedback blockquote {
   border-top: 2px solid #fba24f;
@@ -248,10 +265,15 @@ h3 {
   padding: 20px 0;
 }
 
-#footer p,
+.moto,
 #footer h2 {
   color: #fff;
   font-weight: 300;
   letter-spacing: 1.5px;
   font-family: "Yomogi", cursive;
+}
+
+.copy {
+  font-family: "Lato", sans-serif;
+  letter-spacing: 2px;
 }
