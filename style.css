@@ -20,7 +20,14 @@ h3 {
 #nav {
   justify-content: space-between;
   align-items: center;
-  background-color: #eee;
+  background-color: #333;
+}
+
+#nav h2 {
+  color: #fff;
+  font-weight: 300;
+  padding-left: 80px;
+  font-family: "Yomogi", cursive;
 }
 
 #nav ul {
@@ -33,18 +40,13 @@ h3 {
 }
 
 #nav ul li a {
-  color: #000;
+  color: #fff;
   text-decoration: none;
   padding: 10px 0;
 }
 #nav ul li a:hover {
   color: #fba24f;
   border-bottom: 2px solid #fba24f;
-}
-.logo-box img {
-  height: 100px;
-  padding-left: 40px;
-  padding-top: 10px;
 }
 
 #top-banner,
@@ -193,10 +195,54 @@ h3 {
 }
 
 #footer-top {
-  background-color: #000;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 40px;
+  border-bottom: 1px solid #000;
 }
+
+.footer-top-item {
+  width: 33%;
+  justify-content: center;
+  align-items: center;
+  margin: 0 80px;
+}
+.footer-top-item h3 {
+  color: #fff;
+  border-bottom: 2px solid #fba24f;
+  padding-bottom: 10px;
+}
+.footer-top-list {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-top-list li {
+  margin: 10px 0;
+}
+.footer-top-list li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer-top-list li a:hover {
+  color: #fba24f;
+}
+
+.subscribe-box input[type="email"] {
+  padding: 10px 5px;
+  margin-right: 8px;
+  border: 0;
+}
+.subscribe-box input[type="email"]:focus {
+  outline: none;
+}
+.subscribe-box input[type="submit"] {
+  border: 0;
+}
+
 #footer {
-  background-color: #000;
+  background-color: #333;
   color: #fff;
   text-align: center;
   padding: 20px 0;
@@ -207,4 +253,5 @@ h3 {
   color: #fff;
   font-weight: 300;
   letter-spacing: 1.5px;
+  font-family: "Yomogi", cursive;
 }
