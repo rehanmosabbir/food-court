@@ -36,7 +36,7 @@ h3 {
 }
 #nav ul li {
   display: inline-block;
-  padding: 20px;
+  padding: 0 20px;
 }
 
 #nav ul li a {
@@ -89,6 +89,7 @@ h3 {
 }
 
 .btn-primary {
+  border: 1px solid #fff;
   background: linear-gradient(#fba24f, #ff4500);
   color: #fff;
 }
@@ -209,12 +210,20 @@ h3 {
 
 .social-item h2 {
   margin-bottom: 0;
+  color: #333;
+  font-weight: 900;
+  border-right: 2px solid #fba24f;
+  letter-spacing: 5px;
+}
+
+.social-item:last-child h2 {
+  border-right: 0;
 }
 
 #footer-top {
   background-color: #333;
   color: #fff;
-  padding: 10px 40px;
+  padding: 10px 38px;
   border-bottom: 1px solid #000;
 }
 
@@ -255,7 +264,7 @@ h3 {
   outline: none;
 }
 .subscribe-box input[type="submit"] {
-  border: 0;
+  border: 1px solid #fba24f;
 }
 
 #footer {
